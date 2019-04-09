@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns   = "http://www.w3.org/ns/widgets"
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+		id          = "deviceMovement"
+        version     = "1.0.0" >
+
+    <name>Movement</name>
+    <description>Movement App</description>
+    <author email="kamil.kr@poczta.fm">
+		Kamil Roganowicz
+	</author>
+	<platform name="android" />
+	
+	<plugin name="cordova-plugin-device" spec="2.0.1" />
+	<plugin name="cordova-plugin-dialogs" spec="2.0.1" />
+	<plugin name="cordova-plugin-device-motion" spec="~2.0.1" />
+
+</widget>
